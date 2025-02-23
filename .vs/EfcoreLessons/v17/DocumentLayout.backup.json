@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\Udemy\\EfcoreLessons\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\infra\\entitytypeconfigurations\\baseentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\infra\\entitytypeconfigurations\\baseentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\infra\\entity\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\infra\\entity\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\efcorelessons.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\efcorelessons.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\infra\\entity\\movieentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\infra\\entity\\movieentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\infra\\entity\\actorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\infra\\entity\\actorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\infra\\entity\\directorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\infra\\entity\\directorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\infra\\entity\\genreentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\infra\\entity\\genreentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\infra\\entity\\base\\personentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\infra\\entity\\base\\personentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|d:\\.net\\udemy\\efcorelessons\\efcorelessons\\efcorelessons.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D82126C5-E805-4CCA-B483-E8C6598B5081}|EfcoreLessons\\EfcoreLessons.csproj|solutionrelative:efcorelessons\\efcorelessons.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\appsettings.json",
+              "RelativeDocumentMoniker": "EfcoreLessons\\appsettings.json",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\appsettings.json",
+              "RelativeToolTip": "EfcoreLessons\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T14:30:41.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EfcoreLessons",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\EfcoreLessons.csproj",
+              "RelativeDocumentMoniker": "EfcoreLessons\\EfcoreLessons.csproj",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\EfcoreLessons.csproj",
+              "RelativeToolTip": "EfcoreLessons\\EfcoreLessons.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T14:30:36.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseEntityTypeConfiguration.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\EntityTypeConfigurations\\BaseEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\Infra\\EntityTypeConfigurations\\BaseEntityTypeConfiguration.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\EntityTypeConfigurations\\BaseEntityTypeConfiguration.cs",
+              "RelativeToolTip": "EfcoreLessons\\Infra\\EntityTypeConfigurations\\BaseEntityTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T14:05:17.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActorEntity.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\ActorEntity.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\Infra\\Entity\\ActorEntity.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\ActorEntity.cs",
+              "RelativeToolTip": "EfcoreLessons\\Infra\\Entity\\ActorEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T13:27:53.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DirectorEntity.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\DirectorEntity.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\Infra\\Entity\\DirectorEntity.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\DirectorEntity.cs",
+              "RelativeToolTip": "EfcoreLessons\\Infra\\Entity\\DirectorEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T13:25:11.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenreEntity.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\GenreEntity.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\Infra\\Entity\\GenreEntity.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\GenreEntity.cs",
+              "RelativeToolTip": "EfcoreLessons\\Infra\\Entity\\GenreEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T13:19:54.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovieEntity.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\MovieEntity.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\Infra\\Entity\\MovieEntity.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\MovieEntity.cs",
+              "RelativeToolTip": "EfcoreLessons\\Infra\\Entity\\MovieEntity.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:56:43.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonEntity.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\Base\\PersonEntity.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\Infra\\Entity\\Base\\PersonEntity.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\Base\\PersonEntity.cs",
+              "RelativeToolTip": "EfcoreLessons\\Infra\\Entity\\Base\\PersonEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:54:59.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\Infra\\Entity\\Base\\BaseEntity.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Infra\\Entity\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "EfcoreLessons\\Infra\\Entity\\Base\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:44:09.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\WeatherForecast.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\WeatherForecast.cs",
+              "RelativeToolTip": "EfcoreLessons\\WeatherForecast.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T20:17:13.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EfcoreLessons.http",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\EfcoreLessons.http",
+              "RelativeDocumentMoniker": "EfcoreLessons\\EfcoreLessons.http",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\EfcoreLessons.http",
+              "RelativeToolTip": "EfcoreLessons\\EfcoreLessons.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-14T20:16:43.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Program.cs",
+              "RelativeDocumentMoniker": "EfcoreLessons\\Program.cs",
+              "ToolTip": "D:\\.net\\Udemy\\EfcoreLessons\\EfcoreLessons\\Program.cs",
+              "RelativeToolTip": "EfcoreLessons\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T20:16:41.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
