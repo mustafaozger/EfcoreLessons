@@ -21,7 +21,7 @@ namespace EfcoreLessons.Infra.Context
         {
             //Önceden schema isimlerini belirtiyorduk ama şimdi default olarak ef yaptık
             modelBuilder.HasDefaultSchema("ef");
-
+            
             //Model oluştururulurken hani konfigurasyonların kullanacağını belirtebiliriz
             //Burada mesela MovieEntityConfiguration gibi IEntityTypeConfiguration<T> arayüzünü uygulayan tüm sınıfları bulup, EF Core’un modelBuilder nesnesine ekler.
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(MovieEntityConfiguration).Assembly);
@@ -30,6 +30,7 @@ namespace EfcoreLessons.Infra.Context
         //Hangi database ye bağlanamasını gerektiğini söylemiyorsa bu metodla override edebiliriz
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            
             /* BU şekilde burada da tanımlama yapabiliriz ama bunun yerine 
                 DbContextFactory ile daha iyi bir şekilde yapılabilir
             

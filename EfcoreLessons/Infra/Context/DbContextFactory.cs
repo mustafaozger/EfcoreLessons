@@ -16,10 +16,11 @@ namespace EfcoreLessons.Infra.Context
             var conStr= configuration.GetConnectionString("SqlServer");
 
             var options=new DbContextOptionsBuilder();
-            options.UseSqlServer(conStr,builder=>{
+            options.UseLazyLoadingProxies().UseSqlServer(conStr,builder=>{
                 builder.CommandTimeout(5000);
             
             });
+            
             return new MovieDbContext(options.Options);
         }
     }

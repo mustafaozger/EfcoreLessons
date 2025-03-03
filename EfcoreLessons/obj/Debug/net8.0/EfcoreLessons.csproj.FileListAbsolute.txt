@@ -171,3 +171,6 @@ D:\.net\Udemy\EfcoreLessons\EfcoreLessons\bin\Debug\net8.0\tr\Microsoft.CodeAnal
 D:\.net\Udemy\EfcoreLessons\EfcoreLessons\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\.net\Udemy\EfcoreLessons\EfcoreLessons\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\.net\Udemy\EfcoreLessons\EfcoreLessons\bin\Debug\net8.0\Bogus.dll
+D:\.net\Udemy\EfcoreLessons\EfcoreLessons\bin\Debug\net8.0\Castle.Core.dll
+D:\.net\Udemy\EfcoreLessons\EfcoreLessons\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\.net\Udemy\EfcoreLessons\EfcoreLessons\obj\Debug\net8.0\EfcoreLessons.sourcelink.json
