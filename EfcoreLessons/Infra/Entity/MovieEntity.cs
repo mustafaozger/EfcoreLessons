@@ -9,9 +9,11 @@ namespace EfcoreLessons.Infra.Entity
         public Guid GenreID { get; set; }
         public Guid DirectorID { get; set; }
 
+        public MovieReleaseEntity Release {get; set;}
         public virtual DirectorEntity Director { get; set; }
         public virtual GenreEntity Genre { get; set; }
         public virtual ICollection<ActorEntity> Actors { get; set; }
+        public ICollection<ReleaseCinemaEntity> ReleaseCinemas { get; set; }
 
     }
 }

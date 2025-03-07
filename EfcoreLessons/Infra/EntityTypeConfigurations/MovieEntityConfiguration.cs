@@ -20,7 +20,23 @@ public class MovieEntityConfiguration: BaseEntityTypeConfiguration<MovieEntity>
         builder.HasOne(m => m.Genre).WithMany(m=>m.Movies).HasForeignKey(m=>m.GenreID);
         // Many-2-Many => Actors
         builder.HasMany(a=>a.Actors).WithMany(m=>m.Movies).UsingEntity(j=> j.ToTable("MovieActors"));
+
+        //Owned Types
+        builder.OwnsOne(p=>p.Release);
+
+        builder.OwnsMany(p=>p.ReleaseCinemas, builder=>
+            {
+                builder.ToTable("MovieReleaseCinemas");
+                builder.Property(p=>p.Name).HasMaxLength(200);
+                builder.Property(p=>p.AdresLine1).HasMaxLength(200).IsRequired();
+                builder.Property(p=>p.AdresLine2).IsRequired(false);
+            });
+
+
+
         base.Configure(builder);
+
+
     }
 
 }
