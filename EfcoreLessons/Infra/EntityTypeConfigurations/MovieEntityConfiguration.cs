@@ -32,7 +32,7 @@ public class MovieEntityConfiguration: BaseEntityTypeConfiguration<MovieEntity>
                 builder.Property(p=>p.AdresLine2).IsRequired(false);
             });
 
-
+        builder.Property(p=>p.RowVersion).IsRowVersion();
 
         base.Configure(builder);
 

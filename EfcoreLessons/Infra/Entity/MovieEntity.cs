@@ -8,6 +8,7 @@ namespace EfcoreLessons.Infra.Entity
         public int ViewCount  { get; set; }
         public Guid GenreID { get; set; }
         public Guid DirectorID { get; set; }
+        public byte[] RowVersion { get; set; }
 
         public MovieReleaseEntity Release {get; set;}
         public virtual DirectorEntity Director { get; set; }

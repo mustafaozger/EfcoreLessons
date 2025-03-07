@@ -1,7 +1,12 @@
 
+using System.Data;
+using System.Threading.Tasks;
 using EfcoreLessons.Infra.Context;
 using EfcoreLessons.Infra.DataGenerators;
+using EfcoreLessons.Infra.Entity;
+using EfcoreLessons.Infra.EntityTypeConfigurations;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.OpenApi.Extensions;
 
 var configuration=new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
@@ -147,6 +152,33 @@ optionsBuilder.UseAsyncSeeding(async(context,useASync,ct)=>
     await dbContext.SaveChangesAsync(ct);
 
 });
+
+   #region Concurrency Catch
+/*
+    async Task ConcurrencyTest(){
+        try
+        {
+            var dbContext=new MovieDbContext(optionsBuilder.Options);
+            var firstMovie=dbContext.Movies.ToList()[0];
+            firstMovie.ViewCount++;
+            var rawAffected= await dbContext.SaveChangesAsync();
+
+        }catch(DbUpdateConcurrencyException ex)
+        {
+            foreach(EntityEntry entry in ex.Entries)
+            {
+                if(entry.Entity is MovieEntity)
+                {
+                    throw new NotSupportedException("Don't know how to handle cuncerrency conflict");
+                }
+                var currentValue=entry.CurrentValues;
+                var dbValue=entry.GetDatabaseValues;
+
+            }
+        }
+    }
+*/
+    #endregion
 
 class ActorViewModel
 {
