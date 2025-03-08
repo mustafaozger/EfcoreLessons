@@ -1,12 +1,15 @@
 
 using System.Data;
 using System.Threading.Tasks;
+using Bogus.DataSets;
 using EfcoreLessons.Infra.Context;
 using EfcoreLessons.Infra.DataGenerators;
 using EfcoreLessons.Infra.Entity;
 using EfcoreLessons.Infra.EntityTypeConfigurations;
+using EfcoreLessons.Infra.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.OpenApi.Extensions;
 
 var configuration=new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
@@ -30,6 +33,22 @@ optionsBuilder.UseSqlServer(conStr,builder=>{
 var dbContext=new MovieDbContext(optionsBuilder.Options);
 
 
+optionsBuilder
+    .ConfigureWarnings(warnings =>
+    {
+        warnings.Ignore(RelationalEventId.ConnectionClosed);
+        warnings.Log(RelationalEventId.PendingModelChangesWarning);
+    });
+
+optionsBuilder
+.LogTo(Log,
+       events:
+       [
+           RelationalEventId.CommandExecuted
+       ],
+        LogLevel.Information)
+    .EnableSensitiveDataLogging()
+    .EnableDetailedErrors();
 /*await EnsureMovieData();
 async Task EnsureMovieData()
 {
@@ -179,6 +198,52 @@ optionsBuilder.UseAsyncSeeding(async(context,useASync,ct)=>
     }
 */
     #endregion
+
+    #region Transaction
+/*
+        using var transaction = dbContext.Database.BeginTransaction();
+        try
+        {
+            var dirRepo=new DirectorRepository(dbContext);
+            var movieRepo= new MovieRepository(dbContext);
+            var director= new DirectorEntity()
+            {
+                Id=Guid.NewGuid(),
+                FirstName="Mustafa",
+                LastName="Özger",
+                CreatedDate=DateTime.Now
+            };
+                    var movie= new MovieEntity()
+            {   
+                GenreID=dbContext.Movies.First().GenreID,
+                DirectorID=dbContext.Movies.First().DirectorID,
+                Name="The SC Movie",
+                CreatedDate=DateTime.Now
+            };
+
+            await dirRepo.AddDirector(director);
+            await movieRepo.AddMovie(movie);
+            transaction.Commit();
+
+        }catch(Exception ex)
+        {
+            transaction.Rollback();
+        }
+*/
+
+    #endregion
+
+
+
+    void Log(string message)
+{
+    var color = Console.ForegroundColor;
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine("EFCORE_MESSAGE: {0}", message);
+    Console.ForegroundColor = color;
+}
+
+Console.ReadLine();
 
 class ActorViewModel
 {

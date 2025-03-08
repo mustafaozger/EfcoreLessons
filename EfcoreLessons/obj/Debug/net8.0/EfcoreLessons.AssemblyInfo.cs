@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EfcoreLessons")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f3cb7aaaae6a400d08e68125297bfc4498ece86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20117f5c98839182b581e00416ead6bf753d28f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("EfcoreLessons")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EfcoreLessons")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
